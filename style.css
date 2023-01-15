@@ -257,12 +257,12 @@ img {
 
 .section-para {
     font-weight: 400;
-    font-size: 10px;
+    font-size: 13px;
     color: #727272;
 }
 
 .paragraph-des {
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 400;
     color: #727272;
 }
@@ -319,14 +319,14 @@ img {
 
 .new-title {
     font-weight: 700;
-    font-size: 25px;
+    font-size: 28px;
     color: #131313;
 
 }
 
 .new-paragraph {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 17px;
     padding-top: 1px;
     color: #727272;
 }
