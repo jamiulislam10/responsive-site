@@ -177,71 +177,52 @@ a:hover {
 }
 
 /* main section */
-.team-text {
-    font-size: 30px;
+.features {
+    display: flex;
+    margin: 120px 100px;
+}
+
+.features-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+img {
+    height: 90%;
+    width: 100%;
+}
+
+.container {
+    padding: 200px 100px;
+}
+
+.features-text {
+    font-size: 35px;
     font-weight: 700;
 }
 
-
-.color-dark {
-    color: #131313;
-
-
-}
-
-.color {
-    color: #555;
-}
-
-.feature {
-    color:
-        #FF900E;
-}
-
-.paragraph {
-    font-size: 15px;
-    font-weight: 400;
-    margin-bottom: 10px;
-}
-
-.display {
-    margin-top: 30px;
-    display: flex;
-    margin-left: 20px;
-
-}
-
-.all-img {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-}
-
-@media screen and(max-width:576px) {
-    .display {
+@media screen and (max-width: 576px) {
+    .features {
         flex-direction: column;
     }
 
-    .all-img {
+    .features-img {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .all-img img {
+    img {
         height: 100%;
         width: 100%;
     }
-}
 
+    .features-text {
+        text-align: center;
+    }
 
-.all-img img {
-    height: 240px;
-    width: 240px;
-
-}
-
-.all-items {
-    padding-left: 4%;
-    padding-top: 7%;
+    .container {
+        padding: 20px 0px;
+    }
 }
 
 .main-head {
@@ -306,7 +287,7 @@ a:hover {
     top: 3088px;
     background: #FF900E;
     border-radius: 8px;
-    margin: -180px -18px;
+    margin: -480px -18px;
 
 }
 
@@ -523,9 +504,9 @@ footer {
 
 footer {
     height: 80px;
-    width: 1230px;
+    width: 1030px;
     background-color: #FFF4E7;
-    margin: 80px 130px;
+    margin: 60px 70px;
 }
 
 @media screen and(max-width:576px) {
@@ -535,4 +516,11 @@ footer {
         margin: 80px 0px;
 
     }
+}
+
+@media screen and(max-width:576px) {
+    .all-icon {
+        flex-direction: column;
+    }
+
 }
